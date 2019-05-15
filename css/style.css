@@ -14,6 +14,11 @@ body {
 
 p {
   color: Green;
+  margin: 10px;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 10px;
 }
 
 div{
@@ -22,15 +27,26 @@ div{
 }
 
 nav {
-
-
 	border: rgba(0,0,0,1.00);
 	float: inherit;
-	height: 3em;
+	height: inherit;
 	width: inherit;
 	overflow-x: hidden;
 	overflow-y: hidden;
+}
 
+img {
+  height: 15em;
+  width: inherit;
+  float: right;
+  margin: 5px;
+}
+
+.proImg {
+  float: left;
+  width: 20em;
+  margin: 0 10% 0.5em;
+  padding: 1em;
 }
 
 .style-nav ul{
@@ -66,6 +82,7 @@ div.Info{
   width: 50%;
   height: 50vh;
   float: left;
+
 }
 
 div.Myself{
@@ -75,9 +92,11 @@ div.Myself{
 div.project{
   display: flow-root;
   background-color: red;
-  width: 33.33%;
-  height: 50vh;
+  width: 32%;
+  border: solid;
+  height: inherit;
   float: left;
+  margin: 0.1em;
 }
 
 div.title{
